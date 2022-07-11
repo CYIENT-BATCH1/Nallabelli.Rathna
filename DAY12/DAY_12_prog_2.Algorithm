@@ -1,0 +1,15 @@
+/*****2.Find empty strings in an array of strings (Array of strings will be given as input to program) and print the position of array where empty string is present. 
+And replace the empty string array element as “CYIENT”
+Switch status valueMeaning
+00Fault type 1 in switch
+01switch is buckle
+10switch is unbuckle
+11Fault type 2 in switch********/
+
+ALGORITHM:-
+
+1.Initialize the strings with empty string.
+2.size will be stored in one variable.
+3.use for loop to find the empty string.
+4.when you found empty string that will be replaced with the given string.
+5.print all the tsrings along with replaced string.
