@@ -1,0 +1,8 @@
+/*** 1.Write a program to convert a data stream from Little Endian to Big Endian (you can take any 8 bit value or use 0b110101110)?*****/
+
+ALGORITHM:-
+
+  1: assign hexadecimal value to variable 
+  2: do swapping of LSB and MSB bit
+  3: first set lsb bit by anding operation and store in one variable then similarly set msb bit and store in another variable and 
+     do right shift and left shift operation for swapping then add both shifting result and store in one variable we get swapped value.
