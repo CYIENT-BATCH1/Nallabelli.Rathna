@@ -1,0 +1,11 @@
+/*******2.Write a code to swap even bits with odd bits in unsigned long variable(uint64).
+Example: bit 0 with bit 1; bit 2 with bit 3; bit 4 with bit*********/
+
+ALGORITHM:-
+
+ 1. assign the input number to variable x
+ 2. Do bitwise operation x with 0xAAAAAAAA so we get all even bit, The number 0xAAAAAAAA is for 32 bit number with all even bits set as 1 and all odd bits as 0. 
+ 3. Do bitwise operation x with 0x55555555so we get all odd bit , The number 0x55555555 is for 32 bit number with all odd bits set as 1 and all even bits as 0. 
+ 4. Right shift all even bits. 
+ 5. Left shift all odd bits. 
+ 6. Use logiacal OR opeartion to add both even and odd bits and return. */
